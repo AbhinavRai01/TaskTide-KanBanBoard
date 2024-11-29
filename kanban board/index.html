@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Your site's description here">
+    <title>Task Tide</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="body">
+        <div id="header">
+            <div id="header-text">
+                <span contenteditable="true">EDIT ME</span> <span id="site-name">TaskTide.com</span>
+            </div>
+        </div>
+        <div id="main-items">
+            <div id="main-itemss">
+            <div class="categories">
+                <div class="category-heading">
+                    <span contenteditable="true">CATEGORY NAME</span> 
+                    <button class="delete-cat">X</button>
+                </div>
+                <div class="category-item-box" id="cat1">
+                    <div class="category-item" data-origin="cat1">
+                        <span contenteditable="true">Item Name</span> 
+                        <input type="checkbox" class="item-done"> 
+                        <button class="delete">X</button>
+                    </div>
+                </div>
+                <button class="add-button">+</button>
+            </div>
+            <div class="categories">
+                <div class="category-heading">
+                    <span contenteditable="true">CATEGORY NAME</span>
+                    <button class="delete-cat">X</button>
+                </div>
+                <div class="category-item-box" id="cat2">
+                    <div class="category-item" data-origin="cat2">
+                        <span contenteditable="true">Item Name</span> 
+                        <input type="checkbox" class="item-done"> 
+                        <button class="delete">X</button>
+                    </div>
+                </div>
+                <button class="add-button">+</button>
+            </div>
+            <div id = "cat-add">
+                <button id="cat-add-button">+</button>
+                Add new Category!
+            </div>
+        </div>
+        <div>
+            <div class="categories">
+                <div class="category-heading">
+                    <span contenteditable="true">DONE!</span>
+                </div>
+                <div class="category-item-box" id="done">
+                    
+                </div>
+            </div>
+            </div>
+        </div>
+        <div id="footer"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
